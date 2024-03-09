@@ -9,7 +9,7 @@ on:
         default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://s3.filebin.net/filebin/f19798b6b1f03d3f7704cebcff344de2f5e16ca2a929a0657f06ca15280c929c/731329b2913e067908bc903504655fa9d9293b6ca49baeb57e1f3b6a4443965a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240309T113935Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D300&response-content-disposition=filename%3D%22recovery.img%22&response-content-type=application%2Foctet-stream&X-Amz-Signature=c812844560f1b1cd33f0839a79255fb2018541be9ccb6e33482fc2cc3574c1a2
 
 jobs:
   build:
